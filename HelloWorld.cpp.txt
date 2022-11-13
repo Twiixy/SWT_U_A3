@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+//Autor: Daniel Isakovic, Datum 13.11:2022
+
 int main(){  //Hello World in C++
 
 
