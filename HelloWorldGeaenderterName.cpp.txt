@@ -5,8 +5,13 @@ using namespace std;
 
 int main(){  //Hello World in C++
 
+<<<<<<< HEAD
 int patrick =42;
 cout<<"Mein HelloWorld 2.0!!"<<patrick<<endl;
+=======
+string spongebob ="Gary";
+cout<<"New HelloWorld"<<spongebob<<endl;
+>>>>>>> 79a5c88ba171126bc973e8982c7def9c9fc5e496
 
 return 0;
 
