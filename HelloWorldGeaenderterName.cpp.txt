@@ -5,8 +5,8 @@ using namespace std;
 
 int main(){  //Hello World in C++
 
-
-cout<<"Hello World"<<endl;
+string spongebob ="Gary";
+cout<<"New HelloWorld"<<spongebob<<endl;
 
 return 0;
 
