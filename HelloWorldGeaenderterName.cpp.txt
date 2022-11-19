@@ -5,8 +5,8 @@ using namespace std;
 
 int main(){  //Hello World in C++
 
-
-cout<<"HelloWorld"<<endl;
+int patrick =42;
+cout<<"Mein HelloWorld 2.0!!"<<patrick<<endl;
 
 return 0;
 
