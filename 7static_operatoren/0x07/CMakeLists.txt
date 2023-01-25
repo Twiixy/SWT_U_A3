@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.15)
+project(clion)
+
+set(CMAKE_CXX_STANDARD 20)
+add_executable(a_lang_01_statics a_lang_01_statics.cpp)
+add_executable(a_lang_02_friend a_lang_02_friend.cpp)
+add_executable(a_lang_03_nodiscard a_lang_03_nodiscard.cpp)
+add_executable(b_op_01_address b_op_01_address.cpp)
+add_executable(b_op_02_assign b_op_02_assign.cpp)
+add_executable(b_op_03_plus_global b_op_03_plus_global.cpp)
+add_executable(b_op_04_plus_member b_op_04_plus_member.cpp)
+add_executable(b_op_05_brackets b_op_05_brackets.cpp)
+add_executable(b_op_06_inc b_op_06_inc.cpp)
+add_executable(b_op_07_io b_op_07_io.cpp)
+
+add_executable(sol_deerwoods sol_deerwoods.cpp)
+add_executable(sol_dovertown sol_dovertown.cpp)
+add_executable(sol_heartland sol_heartland.cpp)
+
+add_library(work_a OBJECT work_a_connection.cpp work_a_manager.cpp)
+add_executable(work_a_main work_a_main.cpp)
+target_link_libraries(work_a_main work_a)
